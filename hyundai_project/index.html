@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style-form.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hyundai Azera</title>
+</head>
+
+<body>
+
+    <!-- --------------------block-header---------------- -->
+
+    <header>
+        <div class="container-header">
+            <div class="header-logo"></div>
+            <div class="language dis-flex">
+                <button class="lang-en">EN</button>
+                <button class="lang-ar">AR</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- -----------------------block-main--------------- -->
+
+    <div class="main">
+        <video src="images/main.mp4" autoplay="" loop="" muted="" playsinline="" data-object-fit="cover"
+            class="banner-video"></video>
+        <div class="container-main">
+            <div class="main-description">
+                <h1>Hyundai Azera</h1>
+                <p>Redefine success.</p>
+            </div>
+        </div>
+        <div class="main-car dis-flex">
+            <div class="main-car-model">
+                <p>Azera 2020</p>
+                <p class="car-model-sr">S.R <span>1,699</span></p>
+                <p class="car-model-month">Monthly</p>
+            </div>
+            <a href="#form1" class="form1"><button class="main-registration-form"></button></a>
+            <a href="#x" class="overlay" id="form1"></a>
+            <form class="form-registration modal" action="http://mrerin1993-d8c010@inbox.mailtrap.io" method="post">
+                <input name="First name" placeholder="First name:" class="name" required />
+                <input name="Last name" placeholder="Last name:" class="last-name" required />
+                <input name="emailaddress" placeholder="Email:" class="email" type="email" required />
+                <input name="Mobile" placeholder="Mobile:" class="mobile" type="tel" required />
+                <select id="sellocation" name="Location:">
+                    <option value="">Location</option>
+                    <option value="">Location1</option>
+                    <option value="">Location2</option>
+                </select>
+                <div class="btn-flex">
+                    <input name="submit" class="btn" type="submit" value="Submit" />
+                    <input name="reset" class="btn" type="reset" value="Clear" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- ------------block-registrations----------------- -->
+    <div class="container-registrations">
+        <div class="block-registrations">
+            <form action="http://mrerin1993-d8c010@inbox.mailtrap.io" method="post" class="dis-flex">
+                <input type="text" name="First name" placeholder="First name">
+                <input type="text" name="Last name" placeholder="Last name">
+                <input type="email" name="Email" placeholder="Email">
+                <input type="tel" name="Mobile" placeholder="Mobile">
+                <select id="sellocation" name="Location">
+                    <option value="">Location</option>
+                    <option value="">Location1</option>
+                    <option value="">Location2</option>
+                </select>
+                <button type="submit" class="text-center">Request</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- --------------------block-adv--------------------------- -->
+    <div class="container-adv">
+        <div class="block-adv dis-flex">
+            <div class="adv-1 dis-flex">
+                <div class="dis-flex">
+                    <span class="adv-svg"></span>
+                    <p>0% admin fee</p>
+                </div>
+                <div class="dis-flex">
+                    <span class="adv-svg"></span>
+                    <p>Comprehensive insurance covering the entire lease period</p>
+                </div>
+                <div class="dis-flex">
+                    <span class="adv-svg"></span>
+                    <p>Terms and conditions applicable as per the leasing company</p>
+                </div>
+            </div>
+            <div class="adv-2 dis-flex">
+                <div class="dis-flex">
+                    <span class="adv-svg"></span>
+                    <p>5 years / 100,000 Km Manufacturer Warranty</p>
+                </div>
+                <div class="dis-flex">
+                    <span class="adv-svg"></span>
+                    <p>1 year Road Side Assistance</p>
+                </div>
+                <div class="dis-flex">
+                    <span class="adv-svg"></span>
+                    <p>The monthly installment advertised includes Value Added Tax</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --------------------block-timer-auto--------------------------- -->
+    <div class="container-timer">
+        <div class="block-auto-timer dis-flex text-center">
+            <div class="timer-description">
+                <h1>The all-new Azera World Premiere</h1>
+                <p>Live from Dubai</p>
+            </div>
+            <div class="auto-timer dis-flex">
+                <div id="clockdiv" class="text-center">
+                    <div>
+                        <span class="days"></span>
+                        <div class="smalltext">Days</div>
+                    </div>
+                    <div class="image-point dis-flex">
+                        <span class="point"></span>
+                        <span class="point"></span>
+                    </div>
+                    <div>
+                        <span class="hours"></span>
+                        <div class="smalltext">Hours</div>
+                    </div>
+                    <div class="image-point dis-flex">
+                        <span class="point"></span>
+                        <span class="point"></span>
+                    </div>
+                    <div>
+                        <span class="minutes"></span>
+                        <div class="smalltext">Minutes</div>
+                    </div>
+                    <div class="image-point dis-flex">
+                        <span class="point"></span>
+                        <span class="point"></span>
+                    </div>
+                    <div>
+                        <span class="seconds"></span>
+                        <div class="smalltext">Seconds</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="a-tim">
+                <p>Watch the world premiere event livestream held on April 17, 2020.</p>
+                <div class="b-tim dis-flex">
+                    <p>Via official accounts:</p>
+                    <ul class="dis-flex">
+                        <li><a href="http://youtube.ru">youtube</a></li>
+                        <li><a href="http://facebook.com">facebook</a></li>
+                        <li id="mg-0"><a href="http://instalive.com">instalive</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --------------------block-exterior--------------------------- -->
+    <div class="container-exterior">
+        <div class="block-exterior dis-flex text-center">
+            <div class="exterior-description">
+                <h1>Exterior</h1>
+                <p>The forward-looking front features the 'Sensures Sporty' design</p>
+                <p>directionality and captures a new design
+                    vision, from the sleek,</p>
+                <p>sporty side to the rear with a wide rear lamp.</p>
+            </div>
+            <div class="exterior-wrapper">
+                <input type="radio" name="point" id="slide1" checked>
+                <input type="radio" name="point" id="slide2">
+                <input type="radio" name="point" id="slide3">
+                <div class="slider">
+                    <div class="slides slide1"></div>
+                    <div class="slides slide2"></div>
+                    <div class="slides slide3"></div>
+                </div>
+                <div class="controls">
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
+                    <label for="slide3"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------block-dignities--------------------------- -->
+    <div class="container-dignities">
+        <div class="block-dignities">
+            <div class="dignities-description">
+                <h1>Relaxation as<br> a comfortable living space</h1>
+                <p>In the interior, a 64-color ambient mood lamp is applied</p>
+                <p>to the floating garnish and the silver garnish of the lower</p>
+                <p>crash pad to add comfort to the passengers.</p>
+            </div>
+            <div class="dignities-wrapper">
+                <div class="main-dignities">
+                    <div class="dignities-img1"></div>
+                    <div class="dignities-img2"></div>
+                    <div class="dignities-arrows"></div>
+                </div>
+                <div class="dignities-img">
+                    <div class="dignities-img3"></div>
+                    <div class="dignities-img4"></div>
+                    <div class="dignities-img5"></div>
+                    <div class="dignities-img6"></div>
+                </div>
+                <div class="dignities-img-desc">
+                    <p>Real Aluminum Door Trim Garnish</p>
+                    <p class="ot-center">Quilted leatherette door trim</p>
+                    <p>Rear high-end armrest</p>
+                    <p>Rear suede neck pillow</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --------------------block-gallery--------------------------- -->
+
+
+    <div class="container-gallery">
+        <div class="block-gallery">
+            <h1>Gallery</h1>
+            <div class="slider-gallery">
+                <div class="gallery-img-max">
+                    <img id="gallery-max" src="images/image-gallery-1.png" alt="">
+                </div>
+                <div class="gallery-img-min">
+                    <div><img class="gallery-min" src="images/image-gallery-2.png" alt=""></div>
+                    <div><img class="gallery-min" src="images/image-gallery-3.png" alt=""></div>
+                    <div><img class="gallery-min" src="images/image-gallery-4.png" alt=""></div>
+                    <div><img class="gallery-min" src="images/image-gallery-5.png" alt=""></div>
+                    <div><img class="gallery-min" src="images/image-gallery-6.png" alt=""></div>
+                </div>
+                <a class="slider-control slider-control-left" href="#"></a>
+                <a class=" slider-control slider-control-right slider-control-show" href="#"></a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --------------------block-visit--------------------------- -->
+    <div class="container-visit">
+        <div class="block-visit">
+            <h1>Learn more</h1>
+            <p>Visit Hyundai official site for get more</p>
+            <p>information about Hyundai Azera.</p>
+            <a href="#form1" class="form1 form-block"><button class="visit-btn">Visit Hyundai Now</button>
+            </a>
+            <a href="#x" class="overlay" id="form1"></a>
+            <form class="form-registration modal" action="http://mrerin1993-d8c010@inbox.mailtrap.io" method="post">
+                <input name="First name" placeholder="First name:" class="name" required />
+                <input name="Last name" placeholder="Last name:" class="last-name" required />
+                <input name="emailaddress" placeholder="Email:" class="email" type="email" required />
+                <input name="Mobile" placeholder="Mobile:" class="mobile" type="tel" required />
+                <select id="sellocation" name="Location:">
+                    <option value="">Location</option>
+                    <option value="">Location1</option>
+                    <option value="">Location2</option>
+                </select>
+                <div class="btn-flex">
+                    <input name="submit" class="btn" type="submit" value="Submit" />
+                    <input name="reset" class="btn" type="reset" value="Clear" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- --------------------block-footer--------------------------- -->
+    <div class="container-footer">
+        <div class="block-footer text-center">
+            <div class="footer-logo"></div>
+            <p>All specifications and descriptions provided herein may be different from the actual
+                specifications and
+                descriptions for the product.</p>
+            <p>Hyundai is a registered trademark of Hyundai Motor Company. All rights reserved, Hyundai Motor
+                Middle
+                East &
+                Africa.</p>
+        </div>
+    </div>
+
+    <script src="JS/main.js"></script>
+</body>
+
+</html>

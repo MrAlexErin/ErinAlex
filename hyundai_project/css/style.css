@@ -1,0 +1,1010 @@
+
+@font-face {
+    font-family: 'Hyundai Sans Head KR Reg';
+    src: local('Hyundai Sans Head KR Reg'), 
+    url('../fonts/HyundaiSansHeadKRRegular.woff') format('woff'),
+    url('../fonts/HyundaiSansHeadKRRegular.ttf') format('ttf'), 
+    url('../fonts/HyundaiSansHeadKRRegular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Hyundai Sans Head KR Med';
+    src: local('Hyundai Sans Head KR Med'), 
+    url('../fonts/HyundaiSansHeadKRMedium.ttf') format('ttf'), url('../fonts/HyundaiSansHeadKRMedium.otf') format('otf');
+    font-weight: 500;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Hyundai Sans Text KR';
+    src: local('Hyundai Sans Text KR'), 
+    url('../fonts/HyundaiSansTextKRBold.woff') format('woff'),
+    url('../fonts/HyundaiSansTextKRBold.ttf') format('ttf'), 
+    url('../fonts/HyundaiSansTextKRBold.otf') format('otf');
+    font-weight: bold;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Hyundai Sans Text Med';
+    src: local('Hyundai Sans Text Med'), 
+    url('../fonts/HyundaiSansTextKRMedium.woff') format('woff'),
+    url('../fonts/HyundaiSansTextKRMedium.ttf') format('ttf'), 
+    url('../fonts/HyundaiSansTextKRMedium.otf') format('otf');
+    font-weight: 500;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Hyundai Sans Text Reg';
+    src: local('Hyundai Sans Text Reg'), 
+    url('../fonts/HyundaiSansTextKRRegular.woff') format('woff'),
+    url('../fonts/HyundaiSansTextKRRegular.ttf') format('ttf'), 
+    url('../fonts/HyundaiSansTextKRRegular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+    }
+                
+
+ul, ol, li, h1, h2, h3, h4, h5, h6, form, body, html, p, blockquote, fieldset, input
+{ margin:0; padding:0 }
+
+a img:link img:visited img { border:none }
+
+address { font-style:normal }
+
+video {
+    max-width: 100%;
+}
+
+body {
+    max-width: 1920px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-style {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dis-flex {
+    display: flex;
+}
+
+/* --------------------block-header----------------  */
+
+.container-header {
+    max-width: 1200px;
+    margin: 19px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    width: 100%;
+    height: 19.41px;
+    background-image: url(../images/logo-header.png);
+    background-repeat: no-repeat;
+}
+
+.language {
+    position: relative;
+}
+
+.language .lang-en {
+    margin-right: 24px; 
+    color: #1385B7;
+}
+
+.language .lang-en, .lang-ar {
+    border: none;
+    background: #fff;
+    cursor: pointer;
+}
+
+.language .lang-en::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 12px;
+    background-color: #D8D8D8;
+    position: absolute;
+    right: 43px;
+    top: 5px;
+}
+
+/* -----------------------block-main--------------- */
+
+.main {
+    width: 100%;
+    background-image: url(../images/main-image.png);
+    background-repeat: no-repeat;
+    color: #ffffff;
+    position: relative;
+}
+
+.banner-video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-main {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 32px;
+}
+
+.main-description {
+    position: relative;
+}
+
+.main-description h1 {
+    margin-bottom: 8px;
+    font-family: 'Hyundai Sans Head KR Med';
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 62px;
+}
+
+.main-description p {
+    font-family: 'Hyundai Sans Head KR Reg';
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.main-car {
+    max-width: 1920px;
+    margin: auto;
+    padding: 406px 0 80px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.main-car-model {
+    text-align: left;
+    padding: 16px 29px;
+    background: #032D5D;
+}
+
+.main-car-model p {
+    font-family: 'Hyundai Sans Head KR Med';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.main-car-model .car-model-sr {
+    font-family: 'Hyundai Sans Text Reg';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.main-car-model .car-model-sr span {
+    font-family: 'Hyundai Sans Head KR Med';
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.main-car-model .car-model-month {
+    font-family: 'Hyundai Sans Text Reg';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: none;
+}
+
+
+/* ------------block-registrations----------------- */
+
+.container-registrations {
+    max-width: 1920px;
+    background: #032D5D;
+}
+
+
+.block-registrations {
+    max-width: 1300px;
+    margin: auto;
+    padding: 32px 0;
+}
+
+.block-registrations form {
+    font-family: 'Hyundai Sans Text Reg';
+    list-style: none;
+}
+
+.block-registrations input, select {
+    margin: 16px 28px 2px 0;
+    padding-bottom: 12px;
+    width: 180px;
+    font-size: 16px;
+    line-height: 21px;
+    opacity: 0.9;
+    text-align: left;
+    color: #fff;
+    background: #032D5D;
+    border: none;
+    border-bottom: solid 1px #fff;
+}
+
+.block-registrations button {
+    padding: 16px 39px;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    color: #0B3367;
+}
+
+/* --------------------block-adv--------------------- */
+
+.container-adv {
+    max-width: 1920px;
+    background: #F6F3F2;
+}
+
+.block-adv {
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: auto;
+    padding: 48px 0;
+}
+
+.adv-1, .adv-2 {
+    flex-direction: column;
+}
+
+.adv-1 p, .adv-2 p {
+    margin-bottom: 27px;
+}
+
+.adv-svg {
+    display: inline-block;
+    background-image: url(../images/sign.svg);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+
+/* --------------------block-timer-auto------------------- */
+
+.container-timer {
+    max-width: 1920px;
+    background: #000;
+}
+
+.block-auto-timer {
+    max-width: 1527.84px;
+    padding: 90px 0 96.93px;
+    margin: auto;
+    flex-direction: column;
+    color: #fff;
+}
+
+.timer-description {
+    font-family: 'Hyundai Sans Head KR Med';
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.timer-description h1 {
+    font-size: 50px;
+    line-height: 62px;
+}
+
+.timer-description p {
+    color: #80059F;     
+    font-size: 50px;
+    line-height: 62px;
+}
+
+#clockdiv{
+    color: #fff;
+    display: flex;
+    font-family: 'Hyundai Sans Text KR';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 85.4498px;
+    line-height: 108px;
+}
+
+.smalltext{
+    font-family: 'Hyundai Sans Text Reg';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.auto-timer {
+    justify-content: center;
+    background-image: url(../images/image-timer.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    padding-bottom: 597.66px;
+}
+
+.auto-timer .image-point {
+    flex-direction: column;
+    margin-top: 38px;
+}
+
+.image-point .point {
+    background-image: url(../images/point.png);
+    background-repeat: no-repeat;
+    width: 10.03px;
+    height: 10.03px;
+    margin: 0 30px;
+    padding-bottom: 22.23px;
+}
+
+.a-tim {
+    font-family: 'Hyundai Sans Head KR Reg';
+    font-weight: normal;
+    line-height: 30px;
+    margin-top: 23.65px;
+    font-size: 24px;
+}
+
+.b-tim {
+    justify-content: center;
+    line-height: 62px;
+}
+
+.b-tim p {
+    margin-right: 78px;
+    color: #7E8183;
+}
+
+.b-tim ul li {
+    margin-right: 60px;
+    list-style-type: none;
+}
+
+.b-tim ul li a {
+    color: #fff;
+    text-decoration:none;
+    border-bottom: 2px solid #1385B7;
+    padding-bottom: 12px;
+}
+
+#mg-0 {
+    margin: 0;
+}
+
+/* -------------------block-exterior----------------- */
+
+
+.container-exterior {
+    max-width: 1920px;
+    background: #fff;
+    color: #000;
+}
+
+.block-exterior {
+    max-width: 1088px;
+    padding: 100px 0 132px;
+    margin: auto;
+    flex-direction: column;
+}
+
+.exterior-description {
+    font-family: 'Hyundai Sans Head KR Reg';
+    font-weight: normal;
+    width: 760px;
+    margin: auto;
+}
+
+.exterior-description h1 {
+    font-family: 'Hyundai Sans Head KR Med';
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.exterior-wrapper {
+    height: 540px;
+	margin: 48px 0 0;
+	position: relative;
+	width: 1088px;
+}
+
+.slider {
+	background-color: #ddd;
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+	width: inherit;
+}
+
+.exterior-wrapper > input {
+	display: none;
+}
+
+.slides {
+	height: inherit;
+	opacity: 0;
+	position: absolute;
+	width: inherit;
+	z-index: 0;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+}
+
+.slide1 { background: url(../images/image-exterior-1.png);
+    background-size: cover;
+}
+.slide2 { background: url(../images/image-exterior-2.png);
+    background-size: cover; 
+}
+.slide3 { background: url(../images/image-exterior-3.png);
+    background-size: cover; 
+}
+
+.exterior-wrapper .controls {
+	left: 50%;
+	margin: 30px -270px;
+    position: absolute;
+    width: 540px;
+}
+
+.exterior-wrapper label {
+	cursor: pointer;
+	display: inline-block;
+	height: 4px;
+	position: relative;
+    width: 108px;
+    left: -105px;
+    top: -15px;
+    z-index: 1;
+	-webkit-transition: background ease-in-out .5s;
+	-moz-transition: background ease-in-out .5s;
+	-o-transition: background ease-in-out .5s;
+	transition: background ease-in-out .5s;
+}
+
+.exterior-wrapper .controls label:hover, 
+#slide1:checked ~ .controls label:nth-of-type(1),
+#slide2:checked ~ .controls label:nth-of-type(2),
+#slide3:checked ~ .controls label:nth-of-type(3) {
+	background: #032D5D;
+}
+
+.exterior-wrapper .controls:after {
+	content: " ";
+	display: block;
+	width: 540px;
+    height: 4px;
+	position: absolute;
+    top: -4px;
+    background: #E2DFDE;
+}
+
+#slide1:checked ~ .slider > .slide1,
+#slide2:checked ~ .slider > .slide2,
+#slide3:checked ~ .slider > .slide3 {
+	opacity: 1;
+	z-index: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+/* -------------------block-dignities----------------- */
+
+.container-dignities {
+    max-width: 1920px;
+    color: #000;
+    background: #F6F3F2;
+}
+
+.block-dignities {
+    display: flex;
+    flex-direction: column;
+    max-width: 1080px;
+    margin: auto;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.dignities-description h1 {
+    font-family: Hyundai Sans Head KR;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 62px;
+    padding-bottom: 8px;
+}
+
+.dignities-description p {
+    font-family: Hyundai Sans Head KR;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.dignities-wrapper {
+    margin-top: 48px;
+}
+
+.main-dignities {
+    position: relative;
+    display: flex;
+    width: 1080px;
+    height: 578px;
+}
+
+.dignities-img1 {
+    width: 100%;
+    height: inherit;
+    background: url(../images/car-salon-1.jpg);
+}
+
+.dignities-img2 {
+    width: 100%;
+    height: inherit;
+    background: url(../images/car-salon-2.png);
+}
+
+.dignities-arrows {
+    position: absolute;
+    top: 257px;
+    left: 508px;
+    width: 64px;
+    height: 64px;
+    background: url(../images/arrows.svg);
+}
+
+.dignities-img {
+    display: flex;
+    margin-top: 43px;
+}
+
+.dignities-img3 {
+    width: 256px;
+    height: 170px;
+    margin-right: 14px;
+    background: url(../images/car-salon-3.png);
+    background-repeat: no-repeat;
+}
+
+.dignities-img4 {
+    width: 256px;
+    height: 170px;
+    margin-right: 28px;
+    background: url(../images/car-salon-4.png);
+    background-repeat: no-repeat;
+}
+
+.dignities-img5 {
+    width: 256px;
+    height: 170px;
+    margin-right: 14px;
+    background: url(../images/car-salon-5.jpg);
+    background-repeat: no-repeat;
+}
+
+.dignities-img6 {
+    width: 256px;
+    height: 170px;
+    background: url(../images/car-salon-6.jpg);
+    background-repeat: no-repeat;
+}
+
+.dignities-img-desc {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    margin-top: 24px;
+    font-family: 'Hyundai Sans Head KR Med';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.dignities-img-desc p {
+    width: 200px;
+    margin-right: 9%;
+    font-weight: bold;
+}
+
+.dignities-img-desc .ot-center {
+    margin-right: 12%;
+}
+
+/* -------------------block-gallery----------------- */
+
+.container-gallery {
+    max-width: 1920px;
+    background: #000;
+    color: #fff;
+}
+
+.block-gallery {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 1096px;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.block-gallery h1 {
+    font-family: 'Hyundai Sans Head KR Med';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 62px;
+    margin-bottom: 34.6px;
+}
+
+.gallery-img-max {
+    min-height: 320px;
+}
+
+.gallery-img-max img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery-img-min {
+    display: flex;
+}
+
+.gallery-img-min div {
+    width: 219.24px;
+    height: 116.14px;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.gallery-img-min img {
+    width: 100%;
+}
+
+
+.slider-gallery {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .slider-control {
+    position: absolute;
+    top: 40%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    color: #fff;
+    text-align: center;
+    opacity: 0.8;
+    height: 50px;
+    transform: translateY(-50%);
+    background: #000;
+    pointer-events: none;
+  }
+
+  .slider-control-show {
+    display: flex;
+  }
+
+  .slider-control:hover,
+  .slider-control:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: .9;
+  }
+
+  .slider-control-left {
+    left: 0;
+  }
+
+  .slider-control-right {
+    right: 0;
+  }
+
+  .slider-control::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+  }
+
+  .slider-control-left::before {
+    background-image: url(../images/arrow-left.png);
+  }
+
+  .slider-control-right::before {
+    background-image: url(../images/arrow-right.png);
+  }
+
+/* -------------------block-visit----------------- */
+
+.container-visit {
+    max-width: 1920px;
+    background: #fff;
+    color: #000;
+}
+
+.block-visit {
+    max-width: 680px;
+    margin: auto;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.block-visit h1 {
+    font-family: 'Hyundai Sans Head KR Med';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 62px;
+    padding-bottom: 8px;
+}
+
+.block-visit p {
+    font-family: 'Hyundai Sans Head KR Reg';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.visit-btn {
+    margin-top: 32px;
+    width: 213px;
+    height: 56px;
+    background: #032D5D;
+    color: #fff;
+    border: none;
+    font-family: 'Hyundai Sans Head KR Reg';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+/* -------------------block-footer----------------- */
+
+.container-footer {
+    max-width: 1920px;
+    background: #032D5D;
+}
+
+.block-footer {
+    max-width: 810px;
+    margin: auto;
+    padding: 48px 0;
+}
+
+.footer-logo {
+    background: url(../images/logo-footer.png);
+    width: 186.47px;
+    height: 24px;
+    margin: 0 auto 24px;
+}
+
+.block-footer p {
+    font-family: 'Hyundai Sans Text Reg';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+    .header-logo {
+        width: 100%;
+        margin: 20px;
+    }
+}
+
+/* мобильный */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .container-header, .container-registrations, .container-adv, .container-timer, .container-exterior, .container-dignities, .container-gallery, .container-visit, .container-footer, .main-car {
+        min-width: 320px;
+        padding: 0 20px;
+    }
+
+    .main-description {
+        padding: 0 20px;
+    }
+
+    .form1 {
+        display: none;
+    }
+    .main-car {
+        padding: 0;
+        background: #032D5D;
+        margin: 406px 0 0;
+        justify-content: center;
+    }
+    .main-car-model {
+        text-align: center;
+        padding: 16px 0;
+    }
+
+    .block-registrations form {
+        display: block;
+    }
+
+    .block-registrations input, select {
+        margin: 32px auto;
+    }
+
+    .block-registrations select {
+        display: flex;
+        justify-content: center;
+    }
+
+    .block-registrations button {
+        margin: auto;
+        display: block;
+    }
+
+    .block-adv {
+        display: block;
+    }
+
+    .adv-1 div {
+        display: flex;
+    }
+
+    .adv-2 div {
+        display: flex;
+    }
+
+    #clockdiv {
+        display: block;
+        flex-direction: column;
+    }
+
+    #clockdiv div {
+        margin-bottom: 10px;
+    }
+
+    .image-point {
+        display: none;
+    }
+
+    .auto-timer {
+        padding-bottom: 300px;
+    }
+
+    .a-tim {
+        margin: auto;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .b-tim {
+        margin: auto;
+        display: block;
+        flex-direction: column;
+    }
+
+    .b-tim  p, .b-tim ul>li {
+        margin: 0;
+    }
+
+    .b-tim  ul {
+        display: block;
+    }
+
+    .exterior-description {
+        max-width: 320px;
+        margin-bottom: 40px;
+    }
+
+    .exterior-wrapper {
+        width: 320px;
+        height: 187px;
+        margin: auto;
+    }
+
+    .exterior-wrapper .controls::after {
+        width: 120px;
+        right: 182px;
+    }
+
+    .exterior-wrapper label {
+        width: 20px;
+        left: 0;
+    }
+
+    .main-dignities {  
+        width: 320px;
+        height: 170px;
+        margin: auto;
+    }
+
+    .dignities-description h1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .dignities-description p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .dignities-arrows {
+        top: 67px;
+        left: 141px;
+        width: 40px;
+        height: 40px;
+        background-size: cover;
+    }
+
+    .dignities-img1 {
+        width: 320px;
+        height: inherit;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .dignities-img2 {
+        width: 320px;
+        height: inherit;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .dignities-img div {
+        width: 280px;
+        height: 186px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .block-visit h1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .block-visit p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .block-footer p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .form-block {
+        display: block;
+    }
+    
+}
