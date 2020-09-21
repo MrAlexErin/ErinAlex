@@ -1,0 +1,781 @@
+
+/* @font-face {
+    font-family: 'Hyundai Sans Head KR Reg';
+    src: local('Hyundai Sans Head KR Reg'), 
+    url('../fonts/HyundaiSansHeadKRRegular.woff') format('woff'),
+    url('../fonts/HyundaiSansHeadKRRegular.ttf') format('ttf'), 
+    url('../fonts/HyundaiSansHeadKRRegular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Hyundai Sans Head KR Med';
+    src: local('Hyundai Sans Head KR Med'), 
+    url('../fonts/HyundaiSansHeadKRMedium.ttf') format('ttf'), url('../fonts/HyundaiSansHeadKRMedium.otf') format('otf');
+    font-weight: 500;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Hyundai Sans Text KR';
+    src: local('Hyundai Sans Text KR'), 
+    url('../fonts/HyundaiSansTextKRBold.woff') format('woff'),
+    url('../fonts/HyundaiSansTextKRBold.ttf') format('ttf'), 
+    url('../fonts/HyundaiSansTextKRBold.otf') format('otf');
+    font-weight: bold;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Hyundai Sans Text Med';
+    src: local('Hyundai Sans Text Med'), 
+    url('../fonts/HyundaiSansTextKRMedium.woff') format('woff'),
+    url('../fonts/HyundaiSansTextKRMedium.ttf') format('ttf'), 
+    url('../fonts/HyundaiSansTextKRMedium.otf') format('otf');
+    font-weight: 500;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Hyundai Sans Text Reg';
+    src: local('Hyundai Sans Text Reg'), 
+    url('../fonts/HyundaiSansTextKRRegular.woff') format('woff'),
+    url('../fonts/HyundaiSansTextKRRegular.ttf') format('ttf'), 
+    url('../fonts/HyundaiSansTextKRRegular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+    }
+                
+
+ul, ol, li, h1, h2, h3, h4, h5, h6, form, body, html, p, blockquote, fieldset, input
+{ margin:0; padding:0 }
+
+a img:link img:visited img { border:none }
+
+address { font-style:normal }
+
+video {
+    max-width: 100%;
+}
+
+body {
+    max-width: 1920px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-style {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dis-flex {
+    display: flex;
+}
+
+/* --------------------block-header----------------  */
+
+/* .container-header {
+    max-width: 1200px;
+    margin: 19px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    width: 100%;
+    height: 19.41px;
+    background-image: url(../images/logo-header.png);
+    background-repeat: no-repeat;
+} */
+
+/* -----------------------block-main--------------- */
+
+/* .main {
+    width: inherit;
+    background-image: url(../images/main-image.png);
+    background-repeat: no-repeat;
+    color: #ffffff;
+    position: relative;
+}
+
+.banner-video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 32px 0 592px;
+}
+
+.main-description {
+    position: relative;
+}
+
+.main-description h1 {
+    margin-bottom: 8px;
+    font-family: 'Hyundai Sans Head KR Med';
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 62px;
+}
+
+.main-description p {
+    font-family: 'Hyundai Sans Head KR Reg';
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+} */
+
+/* ------------block-registrations----------------- */
+
+/* .container-registrations {
+    max-width: 1920px;
+    background: #032D5D;
+}
+
+
+.block-registrations {
+    max-width: 1200px;
+    margin: auto;
+    padding: 32px 0;
+}
+
+.block-registrations form {
+    font-family: 'Hyundai Sans Text Reg';
+    list-style: none;
+    justify-content: center;
+}
+
+.block-registrations input, select {
+    margin: 16px 32px 2px 0;
+    padding-bottom: 12px;
+    width: 180px;
+    font-size: 16px;
+    line-height: 21px;
+    opacity: 0.9;
+    text-align: left;
+    color: #fff;
+    background: #032D5D;
+    border: none;
+    border-bottom: solid 1px #fff;
+
+}
+
+.block-registrations button {
+    padding: 16px 39px;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    color: #0B3367;
+    cursor: pointer;
+}
+
+.block-registrations form input:focus {
+    outline-style: none !important;
+    outline-width: 0px !important;
+    outline-color: none !important;
+    border-bottom: 1px solid #3373fd;
+}
+
+.block-registrations form input:active {
+    outline-style: none !important;
+    outline-width: 0px !important;
+    outline-color: none !important;
+} */
+
+/* --------------------block-adv--------------------- */
+
+/* .container-adv {
+    max-width: 1920px;
+    background: #F6F3F2;
+}
+
+.block-adv {
+    justify-content: flex-start;
+    max-width: 1200px;
+    margin: auto;
+    padding: 48px 0;
+}
+
+.adv-1, .adv-2 {
+    flex-direction: column;
+    padding-right: 80px;
+}
+
+.adv-1 p, .adv-2 p {
+    margin-bottom: 27px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.adv-svg {
+    display: inline-block;
+    background-image: url(../images/sign.svg);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+} */
+
+
+/* -------------------block-exterior----------------- */
+
+
+/* .container-exterior {
+    max-width: 1920px;
+    background: #fff;
+    color: #000;
+}
+
+.block-exterior {
+    max-width: 1088px;
+    padding: 100px 0 132px;
+    margin: auto;
+    flex-direction: column;
+}
+
+.exterior-description {
+    font-family: 'Hyundai Sans Head KR Reg';
+    font-weight: normal;
+    width: 760px;
+    margin: auto;
+}
+
+.exterior-description h1 {
+    font-family: 'Hyundai Sans Head KR Med';
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.exterior-wrapper {
+    height: 540px;
+	margin: 48px 0 0;
+	position: relative;
+	width: 1088px;
+} */
+
+/* Собственно сам слайдер */
+/* .slider{
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    height: inherit;
+} */
+/* Картинка мастабируется по отношению к родительскому элементу */
+/* .slider .item img {
+    object-fit: cover;
+    width: 100%;
+    height: inherit;
+    border: none !important;
+    box-shadow: none !important;
+} */
+
+/* Кружочки */
+/* .slider-dots {
+    text-align: center;
+    margin-top: 30px;
+}
+.slider-dots_item{
+    cursor: pointer;
+    height: 4px;
+    width: 108px;
+    margin: 0;
+    background-color: #ddd;
+    border-radius: none;
+    display: inline-block;
+    transition: background-color 0.7s ease;
+}
+.active,
+.slider-dots_item:hover {
+    background-color: #032D5D;
+}
+
+.slider .item {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2.5s;
+    animation-name: fade;
+    animation-duration: 2.5s;
+    height: inherit;
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: .3
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .3
+    }
+    to {
+        opacity: 1
+    }
+} */
+
+/* -------------------block-visit----------------- */
+
+/* .container-visit {
+    max-width: 1920px;
+    background: #fff;
+    color: #000;
+}
+
+.block-visit {
+    max-width: 680px;
+    margin: auto;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.block-visit h1 {
+    font-family: 'Hyundai Sans Head KR Med';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 62px;
+    padding-bottom: 8px;
+}
+
+.block-visit p {
+    font-family: 'Hyundai Sans Head KR Reg';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.visit-popup {
+    margin-top: 32px;
+}
+
+.visit-popup .visit-form {
+    width: 100%;
+}
+
+/* .visit-btn {
+    height: 56px;
+    background: #032D5D;
+    color: #fff;
+    border: none;
+    font-family: 'Hyundai Sans Head KR Reg';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    cursor: pointer;
+} */
+
+/* -------------------block-footer----------------- */
+
+/*.container-footer {
+    max-width: 1920px;
+    background: #032D5D;
+}
+
+.block-footer {
+    max-width: 810px;
+    margin: auto;
+    padding: 48px 0;
+}
+
+.footer-logo {
+    background: url(../images/logo-footer.png);
+    width: 186.47px;
+    height: 24px;
+    margin: 0 auto 24px;
+}
+
+.block-footer p {
+    font-family: 'Hyundai Sans Text Reg';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .container-header, .container-main, .container-registrations, .container-adv, .container-exterior, .container-visit, .container-footer {
+        min-width: 768px;
+        padding: 0 20px;
+    }
+    
+    .header-logo {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .block-registrations form {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .block-registrations input, select {
+        margin: 16px 10px 20px 0;
+    }
+
+    .block-registrations button {
+        color: #0B3367 !important;
+        font-size: 15px;
+        line-height: 0;
+        margin: 14px 10px 16px 0;
+        width: 180px;
+        height: auto;
+    }
+
+    .exterior-wrapper {
+        width: 100%;
+    }
+
+    .exterior-wrapper .controls {
+        left: 0;
+        margin: 30px auto;
+        right: 0;
+    }
+
+}*/
+
+/* мобильный */
+
+/*@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .container-header, .main, .container-registrations, .container-adv, .container-exterior, .container-visit, .container-footer, .main-car {
+        min-width: 320px;
+        padding: 0 20px;
+    }
+
+    .main-description {
+        padding: 0 20px;
+    }
+
+    
+    .block-registrations form {
+        display: block;
+    }
+
+    .block-registrations input, select {
+        margin: 32px auto;
+        display: flex;
+    }
+
+    .block-registrations select {
+        display: flex;
+        justify-content: center;
+    }
+
+    .block-registrations button {
+        margin: auto;
+        display: block;
+        background: #fff !important;
+    }
+
+    .block-adv {
+        display: block;
+    }
+
+    .adv-1 div {
+        display: flex;
+    }
+
+    .adv-2 div {
+        display: flex;
+    }
+
+    .exterior-description {
+        max-width: 320px;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    .exterior-wrapper {
+        width: 100%;
+        height: 187px;
+        margin: auto;
+    }
+
+    .exterior-wrapper .controls::after {
+        width: 120px;
+        right: 182px;
+    }
+
+    .exterior-wrapper label {
+        width: 20px;
+        left: 0;
+    }
+
+    .visit-popup {
+        margin-top: 32px;
+    }
+
+    .visit-form {
+        width: 100%;
+    }
+
+    .block-visit h1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .block-visit p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .block-footer p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .form-block {
+        display: block;
+    }
+    
+}*/
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+.form-registration {
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 30px 35px 20px;
+    min-width: 320px;
+    max-width: 520px;
+    width: 100%;
+    border: 1px solid #032D5D;
+    background: #fff;  
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+}
+
+
+.form-registration select, .form-registration input{
+    display:block;
+    margin: 0 1% 2% !important;    
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box; 
+    color:#000;
+    border: 1px solid #032D5D;
+    font-weight: 300;
+    font-size:18px;
+}
+
+.form-registration select{
+    overflow:hidden;
+    width: 48%;
+    height: inherit;
+    padding: 12px 25px;
+    background: #fff; 
+}
+
+.form-registration input {
+    width: 98%;
+    height: 50px;
+}
+
+.form-registration input[type=submit], input[type=reset] {
+    cursor:pointer;
+}
+
+.form-registration input.name {
+    background: #fff; 
+    padding-left:15px;
+}
+
+.form-registration input.last-name {
+    background: #fff; 
+    padding-left:15px;
+}
+
+.form-registration input.email {
+    background: #fff;
+    padding-left:15px;
+}
+
+.form-registration input.mobile {
+    background: #fff;
+    padding-left:15px;
+}
+
+.form-registration input#sellocation {
+    background: #fff;
+    padding-left:15px;
+}
+
+.form-registration::-webkit-input-placeholder {
+    color: #000;
+}
+
+.form-registration:-moz-placeholder{ 
+    color: #000;
+}
+
+.form-registration::-o-placeholder {
+    color: #000;
+}
+
+.form-registration:-ms-input-placeholder {  
+    color: #000;
+}
+
+.form-registration input:focus, .form-registration select:focus { 
+    overflow: hidden; 
+    background: #032D5D;
+    color: #fff;
+}
+
+.form-registration:focus::-webkit-input-placeholder { color:transparent; }
+.form-registration:focus::-moz-placeholder { color:transparent; }
+.form-registration:focus::placeholder { color:transparent; }
+
+
+.btn-flex {
+    display: flex;
+    width: 100%;
+}
+
+.btn {
+    background: #fff;
+    width: 46%;
+    color: #000;
+    outline: none;
+}
+
+.btn:hover {
+    background: #032D5D;
+    color: #fff;
+    -webkit-transition: opacity 500ms ease-in;
+    -moz-transition: opacity 500ms ease-in;
+    transition: opacity 500ms ease-in; 
+}
+
+.btn:active {
+    background: #739cf5;
+    color: #fff;
+}
+
+
+.overlay {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10000;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    position: fixed; 
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+}
+
+
+.modal {
+    top: 20%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 25%;
+    z-index: 10001;
+    opacity: 0;
+    display: block;
+    visibility: hidden;
+    position: fixed;
+    -webkit-transition: opacity 500ms ease-in;
+    -moz-transition: opacity 500ms ease-in;
+    transition: opacity 500ms ease-in; 
+}
+
+.form-registration .cancel {
+    position: absolute;
+    color: #000; 
+    text-align: center;
+    cursor: pointer;   
+    width: 25px;
+    height: 25px;
+    opacity: 0.8;
+    font-size: 17px;
+    padding: 0;
+    top: -2px;
+    right: -2px;
+    border: none;
+}
+    
+.form-registration .btn:hover, .main-registration-form:hover {
+    opacity: 1;
+}
+
+.pop-up {
+    display: none;
+    position: fixed;
+    text-align: center;
+    top: 25%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 30px 30px 20px 30px;
+    min-width: 320px;
+    max-width: 520px;
+    width: 100%;
+    border: 1px solid #032D5D;
+    background: #fff;
+    color: #000;  
+    z-index: 10000;
+}
+
+.close-2 {
+    background: #fff;
+    border: 1px solid #032D5D;
+    margin: 20px;
+    padding: 15px;
+    width: 120px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+планшет
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .modal {
+    width: 95%;
+    }
+}
+
+
+@media only screen and (min-width: 459px) and (max-width: 767px) {
+    .modal {
+    width:85%;  
+    }
+} */
