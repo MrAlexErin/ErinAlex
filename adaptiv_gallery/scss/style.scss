@@ -1,0 +1,288 @@
+@mixin for-phone-only {
+    @media (max-width: 319px) { @content; }
+  }
+  @mixin for-tablet-portrait-up {
+    @media (min-width: 320px) { @content; }
+  }
+  @mixin for-tablet-portait-only {
+    @media (min-width: 320px) and (max-width: 479px) { @content; }
+  }
+  @mixin for-tablet-landscape-up {
+    @media (min-width: 480px) { @content; }
+  }
+  @mixin for-tablet-landscape-only {
+    @media (min-width: 480px) and (max-width: 767px) { @content; }
+  }
+  @mixin for-desktop-up {
+    @media (min-width: 768px) { @content; }
+  }
+  @mixin for-desktop-only {
+    @media (min-width: 768px) and (max-width: 999px) { @content; }
+  }
+  @mixin for-big-desktop-up {
+    @media (min-width: 1000px) { @content; }
+  }
+
+
+// ------------------block-gallery--------------
+
+body {
+    max-width: 100%;
+    background: #fff;
+    .container-block {
+        max-width: 660px;
+        margin: 10px auto 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .gallery-block {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 18px;
+            .gallery-block__flex {
+                display: flex;
+                margin: 0 0 10px 10px;
+                .userPhoto {
+                    margin-right: 10px;
+                    a {
+                        cursor: pointer;
+                    }
+                }
+                .gallery-user__description {
+                    font-family: Roboto Condensed;
+                    font-style: normal;
+                    font-size: 12px;
+                    line-height: 14px;
+                    a {
+                        text-decoration: none;
+                    }
+                    p {
+                        font-weight: normal;
+                        color: #8D8D8D;
+                    }
+                    .gallery-user__name {
+                        font-weight: bold;
+                        color: #333333;
+                    }
+                }
+            }
+            .gallery__flex {
+                display: flex;
+                justify-content: flex-end;
+                margin-top: 10px;
+                p {
+                    font-family: Roboto Condensed;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 12px;
+                    line-height: 14px;
+                    color: #8D8D8D;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
+
+// ------------------------user cart---------------
+
+.page-body {
+    display: flex;
+    justify-content: space-around;
+    background: #dadada;
+    max-width: 1000px;
+    margin: 20px auto;
+    a {
+        text-decoration: none;
+    }
+    .column-wrap__left {
+        display: flex;
+        flex-direction: column;
+        .page-photo {
+            width: 210px;
+            height: 250px;
+            background: #fff;
+            border-radius: 3%;
+            margin: 15px;
+        }
+        .page-block {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            color: #000;
+            margin: 15px;
+            border-radius: 3%;
+            background: #fff;
+            aside {
+                width: 100%;
+            }
+            .profile-friends {
+                display: flex;
+                flex-direction: column;
+            }
+            a {
+                color: #000;
+                text-align: center;
+            }
+            .block-friends-all {
+                display: flex;
+                flex-direction: column;
+                margin: 15px 0;
+                .block-friends-row {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    margin-bottom: 20px;
+                    .people-cell {
+                        width: 70px;
+                        height: 70px;
+                        background: #fff;
+                        .people-photo {
+                            display: block;
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 100%;
+                            margin-bottom: 5px;
+                            margin: 5px 0 5px 15px;
+                            background: #a0e1f5;
+                        }
+                        .people-cell-name {
+                            text-align: center;
+                            font-size: 15px;
+                        }
+                    }
+                }    
+            }
+        }
+    }
+    .column-wrap__right {
+        display: flex;
+        flex-direction: column;
+        .page-info {
+            background: #fff;
+            border-radius: 3%;
+            margin: 15px;
+            font-size: 15px;
+            .page-info-top p {
+                font-size: 23px;
+            }
+            .page-info-top {
+                border-bottom: 1px solid #a8a8a8;
+                padding: 10px 0 10px 10px;
+            }
+            .profile-info-row {
+                padding: 10px 10px 0;
+            }
+        }
+        .profile-photo {
+            background: #fff;
+            border-radius: 3%;
+            margin: 15px;
+            padding: 10px;
+            p {
+                font-size: 23px;
+            }
+            .profile-photo-module {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+}
+
+// ---------------------mixin-media----------------
+
+//   .big-desktop-up {
+    @include for-big-desktop-up { 
+        .container-block {
+            justify-content: space-between;
+            flex-direction: row !important;
+            flex-wrap: wrap !important;
+            .gallery-block {
+                margin: 0 0 18px !important;
+            }
+        }
+    }
+
+//   .desktop-up {
+    @include for-desktop-up {         
+        .container-block {
+        justify-content: space-between;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        .gallery-block {
+            margin: 0 0 18px !important;
+        }
+    }
+ }
+
+//   .desktop-only {
+    @include for-desktop-only { 
+        .container-block {
+        justify-content: space-between;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        .gallery-block {
+            margin: 0 0 18px;
+        }
+    }
+  }
+
+  // .tablet-landscape-up {
+    @include for-tablet-landscape-up { 
+        .container-block {
+            justify-content: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            .gallery-block {
+                margin: 0 0 16px;
+            }
+         }
+     }
+
+     //   .tablet-landscape-only {
+    @include for-tablet-landscape-only { 
+        .container-block {
+            justify-content: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            .gallery-block {
+                margin: 0 auto 16px;
+            }
+         }
+    }
+
+    //   .tablet-portrait-up {
+    @include for-tablet-portrait-up { 
+        .container-block {
+            flex-direction: column;
+            flex-wrap: nowrap;
+            .gallery-block {
+                margin: 0 auto 16px;
+            }
+        }
+    }
+
+      //   .tablet-portait-only {
+    @include for-tablet-portait-only { 
+        .container-block {
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: center !important;
+            .gallery-block {
+                margin: 0 auto 16px;
+            }
+        }
+   }
+
+  // .phone-only {
+    @include for-phone-only {
+        .container-block {
+            justify-content: center !important;
+            flex-wrap: nowrap;
+            flex-direction: column;
+        .gallery-block {
+            margin: 0 auto 26px;
+        }
+    }
+}
