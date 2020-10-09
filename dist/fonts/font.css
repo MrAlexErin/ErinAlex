@@ -1,0 +1,12 @@
+@font-face {
+	font-family: 'BoschSans';
+	src: url("../../assets/fonts/bosch-sans_light/bosch-sans_light.eot");
+	src: url("../../assets/fonts/bosch-sans_light/bosch-sans_light.eot?#iefix") format("embedded-opentype"),
+	url("../../assets/fonts/bosch-sans_light/bosch-sans_light.otf") format("opentype"),
+	url("../../assets/fonts/bosch-sans_light/bosch-sans_light.svg") format("svg"),
+	url("../../assets/fonts/bosch-sans_light/bosch-sans_light.ttf") format("truetype"),
+	url("../../assets/fonts/bosch-sans_light/bosch-sans_light.woff") format("woff"),
+	url("../../assets/fonts/bosch-sans_light/bosch-sans_light.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
